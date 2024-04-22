@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Code Chat</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+      }
+      .heading {
+        font-size: 24px;
+        text-align: center;
+      }
+      .text {
+        margin-top: 20px;
+      }
+      .box {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        margin-top: 20px;
+      }
+      .input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 20px;
+      }
+      .button {
+        padding: 10px 20px;
+        background-color: teal;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Python Code Chat</div>
+      <div class="text">Write Python code and see it executed in the terminal. No punctuation in responses!</div>
+      <div class="box">
+        <!-- Simulated history entries -->
+        <div>Input: print("Hello, world!")</div>
+        <div><strong>Output:</strong> Executing Python code: print("Hello, world!")</div>
+      </div>
+      <input type="text" class="input" placeholder="Write Python code here..." />
+      <button class="button">Send Code</button>
+    </div>
+  </body>
+</html>
